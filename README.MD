@@ -3,6 +3,6 @@
 An easy-to-use PHP package to communicate with [TeamGrid's API](http://developer.teamgridapp.com).
 
 ##Installation
-####Require TeamGrid/teamgrid-php in `composer.json`
+####Require teamgrid/teamgrid-php in `composer.json`
 
-Add `"TeamGrid/teamgrid-php"` in your "require" object.
+Add `"teamgrid/teamgrid-php"` in your "require" object.
