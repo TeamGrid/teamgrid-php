@@ -1,0 +1,20 @@
+{
+    "name": "TeamGrid/teamgrid-php",
+    "description": "TeaMGrid API PHP 5.4+ library",
+    "authors": [
+        {
+            "name": "Dennis Oderwald",
+            "email": "oderwald@yay-digital.de"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "TeamGrid\\": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
