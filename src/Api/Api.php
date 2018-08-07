@@ -32,7 +32,7 @@ abstract class Api implements ApiInterface
     {
         return $this->getClient()->{$httpMethod}("{$uri}", [
             'query' => $parameters,
-            'form_params' => $body
+            'json' => $body
         ]);
     }
 
